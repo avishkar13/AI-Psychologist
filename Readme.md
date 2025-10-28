@@ -2,7 +2,7 @@
 
 A modern web application that provides an AI-powered psychological counseling experience through natural conversation. The application features a sleek, user-friendly interface with real-time chat functionality and seamless dark/light mode support.
 
-![AI Psychologist Screenshot](client/public/images/screenshot.png)
+![AI Psychologist Screenshot](client/public/images/Screenshot.png)
 
 ## Project Overview
 
@@ -42,21 +42,18 @@ AI Psychologist is designed to provide accessible psychological support through 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-psychologist.git
-   cd ai-psychologist
+   git clone https://github.com/avishkar13/AI-Psychologist.git
+   cd AI-Psychologist
    ```
 
-2. Frontend Setup (.env in client folder):
-   ```env
-   VITE_API_URL=http://localhost:5000
-   ```
 
-3. Backend Setup (.env in server folder):
+2. Backend Setup (.env in server folder):
    ```env
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
-   GOOGLE_API_KEY=your_gemini_api_key
+   GEMINI_API_KEY=your_gemini_api_key
    PORT=5000
+   CLIENT_URL=your_client_url
    ```
 
 ## Running the Application

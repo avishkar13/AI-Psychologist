@@ -31,7 +31,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
   }, [open]);
 
   return (
-    <div className="flex h-screen overflow-hidden relative min-w-[8vw]  bg-purple-500/10">
+    <div className="flex h-screen overflow-hidden relative min-w-[15vw]  bg-purple-500/10">
       {/* Hamburger (mobile only) */}
       <button
         onClick={toggleSidebar}
