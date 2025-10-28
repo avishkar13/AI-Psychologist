@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply h-full;
+
+  }
+
+  body {
+    @apply h-full bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+  }
+}
+
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+
+
